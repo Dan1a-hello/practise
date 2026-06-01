@@ -1,0 +1,18 @@
+.body {
+    display: flex;
+}
+
+.box {
+    background-image: linear-gradient(rgb(0, 17, 255), rgb(255, 255, 255));
+    width: 270px;
+    height: 325px;
+    border-radius: 6px;
+    margin: 100px auto;
+    overflow: hidden;
+    box-shadow: 6px 5px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.box:hover {
+  transform: translateY(-8px);
+}
